@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+html body {
+    height: 100vh;
+    font-family: cursive;
+    background-color: #ffebcd;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+
+.scene {
+    justify-content: center;
+    display: flex;
+    background-color: #ffff;
+    max-height: fit-content;
+}
+
+.legend {
+    justify-content: center;
+}
+
+header {
+    margin: 0;
+    justify-content: center;
+    display: grid;
+    padding-bottom: 50px;
+    padding-top: 5px;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin: 0;
+    justify-content: center;
+    display: grid;
+}
+
+i {
+    justify-content: center;
+    display: flex;
+}
+
+.grid-parent02 {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px 100px;
+    grid-gap: 50px
+}
+
+#Finds {
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+.square {
+    display: none;
+}
